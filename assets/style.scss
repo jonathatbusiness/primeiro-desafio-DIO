@@ -1,0 +1,759 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    font-size: 18px;
+
+}
+
+body {
+    background-image: url("../images/bg-body.jpg");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    overflow-x: hidden;
+
+
+
+}
+
+header {
+    width: 100%;
+    background-color: #2061cf;
+    padding: 10px 10px;
+
+}
+
+.containerPl {
+    
+    width: 20%;
+    margin: 0 auto;
+    height: 100%;
+
+
+}
+
+#caixaTituloProduto {
+    width: 100%;
+    line-height: 1.5em;
+    margin: 0px auto;
+    padding: 5px 5px;
+    
+
+    text-align: center;
+
+
+}
+
+.tituloProduto {
+    font-size: 1.1em;
+    position: relative;
+    top: 10px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.botaoContainer {
+    width: 100%;
+    height: 30px;
+    margin: 15px auto;
+    padding: 5px;
+
+
+    text-align: center;
+
+}
+
+.botaoContato {
+    background-color: #F7D002;
+    padding: 5px 10px;
+    font-size: 0.78em;
+    text-align: center;
+    font-weight: bold;
+    color: #101010;
+    border-radius: 20px;
+
+
+
+    position: relative;
+    left: 13.83vh;
+
+}
+
+a.botaoContato:hover {
+    text-decoration: none;
+    color: #262626;
+
+}
+
+.botaoContato:link,
+.botaoContato:visited,
+.botaoContato:hover {
+    color: #101010;
+}
+
+.courseBlock {
+    width: 97%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #797979;
+    border-radius: 20px;
+    margin: 5px auto;
+    padding: 5px auto;
+
+    /*border-style: solid;
+    border-color: green;*/
+}
+
+.courseScroll {
+    width: 100%;
+
+    margin: 0px auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 69.96vh;
+    border-color: #797979;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-radius: 20px;
+    border-color: #2061cf;
+}
+
+
+
+.courseItensAll {
+    width: 98%;
+
+    padding: 5px auto;
+    margin: 5px 5px;
+    position: relative;
+    top: 5px;
+    box-sizing: content-box;
+    float: right;
+
+
+    /*border-style: solid;
+    border-color: red;*/
+
+
+}
+
+
+.courseItem {
+    width: 100%;
+    padding: 5px;
+    margin: 5px auto;
+    background-color: #efefef;
+    border-radius: 15px;
+    float: right;
+
+    /*border-style: solid;
+    border-color: blue;*/
+
+}
+
+.imgCourse {
+    width: 10.76vh;
+    height: 10.76vh;
+    margin-top: auto;
+
+    border-radius: 10px;
+    float: left;
+    background: #797979;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.dataCourse {
+    width: 68%;
+    height: auto;
+    float: right;
+
+}
+
+.titleCourse {}
+
+.tituloText {
+    font-size: 1.0em;
+    color: #101010;
+    font-weight: bold;
+    height: auto;
+}
+
+.botaoContainer2 {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 5px;    
+    text-align: center;
+    
+    
+    
+
+}
+
+
+a.botaoCurso:hover {
+    color: #F7D002;
+    text-decoration: none;
+
+}
+
+
+
+.botaoCurso {
+
+    background-color: #3680FD;
+    padding: 5px 10px;
+    font-size: 0.78em;
+    text-align: center;
+    font-weight: normal;
+    color: #101010;
+    border-radius: 20px;
+    white-space: nowrap;
+    
+    
+
+    /*position: relative;
+    left: -6.8vh;*/
+    
+
+
+}
+
+.instrucao {
+    width: 100%;
+    margin: 5px auto;
+    padding: 5px auto;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.arrasteImg {
+    width: 100%;
+
+    padding: 5px auto;
+    box-sizing: content-box;
+
+
+}
+
+.arrasteTxt {
+    font-size: 1.1em;
+}
+
+.ico {
+    width: 8%;
+}
+
+/*=============*/
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 150px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 20px
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3549A8;
+    border-radius: 20px;
+    padding-right: 20px;
+    max-height: 300px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #69a0fe;
+}
+
+
+.bi-hand-index-fill {
+    color: white;
+}
+
+
+/*========ANIMATE=========*/
+
+.tp {
+
+    animation-delay: 0.4s;
+
+}
+
+.bC {
+    animation-delay: 0.8s;
+
+}
+
+.cB {
+    animation-delay: 1.2s;
+
+}
+.c1 {
+       
+    animation-delay: 1.6s;
+}
+
+.c2 {
+    
+    animation-delay: 1.8s;
+}
+.c3 {
+    animation-delay: 2.0s;
+}
+.c4 {
+    animation-delay: 2.2s;
+}
+
+.c5 {
+    animation-delay: 2.4s;
+}
+
+.c6 {
+    animation-delay: 2.6s;
+}
+
+.c7 {
+    animation-delay: 2.8s;
+}
+
+.c8 {
+    animation-delay: 3.0s;
+}
+
+/*================OUTROS TAMANHOS TELAS===========*/
+@media only screen and (min-width: 360px) and (max-width: 1760px) {
+    .containerPl-t {
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        overflow-y: hidden;
+
+    }
+
+    .botaoCurso-t {
+
+        background-color: #3680FD;
+        padding: 5px 10px;
+        font-size: 1.1em;
+        text-align: center;
+        font-weight: normal;        
+        color: #101010;
+        border-radius: 20px;
+        white-space: nowrap;
+        
+
+        
+        
+    }
+
+    a.botaoCurso-t:hover {
+        color: #F7D002;
+        text-decoration: none;
+    
+    }
+
+    a.botaoCurso-t {
+        color: #f1f1f1;
+    }
+
+    .tituloText-t {
+        font-size: 1.5em;
+        color: #101010;
+        font-weight: bold;
+    }
+
+    .dataCourse-t {
+        width: 75%;
+        height: 10.76vh;
+        float: right;
+    
+    }
+
+    .botaoContainer2-t {
+        width: 75%;
+        height: 3.23vh;
+        margin: 0px auto;
+        padding: 5px;
+        
+        text-align: center;
+    
+    }
+
+    .botaoContato-t {
+        background-color: #F7D002;
+        padding: 5px 10px;
+        font-size: 1.1em;
+        text-align: center;
+        font-weight: bold;
+        color: #101010;
+        border-radius: 20px;    
+        position: relative;
+        left: 18.83vh;
+    
+    }
+
+    .botaoContainer-t {
+        width: 100%;
+        height: 3.23vh;
+        margin: 15px auto;
+        padding: 5px;
+    
+    
+        text-align: center;
+    
+    }
+
+    .tituloProduto-t {
+        font-size: 1.5em;
+        position: relative;
+        top: 10px;
+        color: #fff;
+    
+    }
+
+    .arrasteTxt-t {
+        font-size: 1.5em;
+    }
+
+  
+
+
+}
+
+
+
+@media only screen and (max-width: 360px) {
+    .containerPl-s {
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        overflow-y: hidden;
+
+    }
+
+
+
+    .botaoCurso-s {
+
+        background-color: #3680FD;
+        padding: 5px 10px;
+        font-size: 0.7em;
+        text-align: center;
+        font-weight: normal;        
+        color: #101010;
+        border-radius: 20px;
+        white-space: nowrap;
+        position:relative;
+        bottom: 1.7vh;
+        
+        
+        
+
+        
+    }
+
+    a.botaoCurso-s:hover {
+        color: #F7D002;
+        text-decoration: none;
+    
+    }
+
+    a.botaoCurso-s {
+        color: #f1f1f1;
+    }
+
+    .tituloText-s {
+        width: 100%;
+        font-size: 0.8em !important;
+        color: #101010;
+        font-weight: bold;
+        margin-left: 5px;
+       
+    }
+
+    .dataCourse-s {
+        width: 90%;
+        height: 10.76vh;
+        float: left;
+    
+    }
+
+    .botaoContainer2-s {
+        width: 75%;
+        height: 3.23vh;
+        margin: 0px auto;
+        padding: 5px;
+        
+        text-align: center;
+    
+    }
+
+    .botaoContato-s {
+        background-color: #F7D002;
+        padding: 3px 10px;
+        font-size: 0.8em;
+        text-align: center;
+        font-weight: bold;
+        color: #101010;
+        border-radius: 20px;    
+        position: relative;
+        left: 15.83vh;
+        box-sizing: content-box;
+    
+    }
+
+    .botaoContainer-s {
+        width: 90%;
+        height: 3.23vh;
+        margin: 5px auto;
+        
+    
+    
+        text-align: center;
+        
+    
+    }
+
+    .tituloProduto-s {
+        font-size: 1em;
+        position: relative;
+        top: 10px;
+        color: #fff;
+    
+    }
+
+    .arrasteTxt-s {
+        font-size: 1em !important;
+    }
+
+    .courseScroll-s {
+        width: 100%;
+    
+        margin: 5px auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 67.50vh;
+        border-color: #797979;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        border-radius: 20px;
+        border-color: #2061cf;
+    }
+
+    .courseBlock-s {
+        width: 97%;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px #797979;
+        border-radius: 20px;
+        margin: 20px auto 5px auto;
+        padding: 5px auto;
+        box-sizing: content-box;
+    
+        /*border-style: solid;
+        border-color: green;*/
+    }
+
+    .courseItem-s {
+        width: 100%;
+        padding: 5px;
+        margin: 5px auto auto auto;
+        background-color: #efefef;
+        border-radius: 15px;
+        float: left;
+    
+        /*border-style: solid;
+        border-color: blue;*/
+    
+    }
+
+  
+
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 414px) {
+    .containerPl-s {
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        overflow-y: hidden;
+
+    }
+
+
+
+    .botaoCurso-s {
+
+        background-color: #3680FD;
+        padding: 5px 10px;
+        font-size: 0.7em;
+        text-align: center;
+        font-weight: normal;        
+        color: #101010;
+        border-radius: 20px;
+        white-space: nowrap;
+        position:relative;
+        bottom: 1.7vh;
+        
+        
+        
+
+        
+    }
+
+    a.botaoCurso-s:hover {
+        color: #F7D002;
+        text-decoration: none;
+    
+    }
+
+    a.botaoCurso {
+        color: #f1f1f1;
+    }
+
+    .tituloText-s-2 {
+        width: 100%;
+        font-size: 0.9em !important;
+        color: #101010;
+        font-weight: bold;
+        margin-left: 5px;
+       
+    }
+
+    .dataCourse-s {
+        width: 70%;
+        height: 10.76vh;
+        float: right;
+    
+    }
+
+    .botaoContainer2-s {
+        width: 75%;
+        height: 3.23vh;
+        margin: 0px auto;
+        padding: 5px;
+        
+        text-align: center;
+    
+    }
+
+    .botaoContato-s {
+        background-color: #F7D002;
+        padding: 3px 10px;
+        font-size: 0.8em;
+        text-align: center;
+        font-weight: bold;
+        color: #101010;
+        border-radius: 20px;    
+        position: relative;
+        left: 15.83vh;
+        box-sizing: content-box;
+    
+    }
+
+    .botaoContainer-s {
+        width: 90%;
+        height: 3.23vh;
+        margin: 5px auto;
+        
+    
+    
+        text-align: center;
+        
+    
+    }
+
+    .tituloProduto-s {
+        font-size: 1em;
+        position: relative;
+        top: 10px;
+        color: #fff;
+    
+    }
+
+    .arrasteTxt-s {
+        font-size: 1em !important;
+    }
+
+    .courseScroll-s {
+        width: 100%;
+    
+        margin: 5px auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 67.50vh;
+        border-color: #797979;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        border-radius: 20px;
+        border-color: #2061cf;
+    }
+
+    .courseBlock-s {
+        width: 97%;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px #797979;
+        border-radius: 20px;
+        margin: 20px auto 5px auto;
+        padding: 5px auto;
+        box-sizing: content-box;
+    
+        /*border-style: solid;
+        border-color: green;*/
+    }
+
+    .courseItem-s {
+        width: 100%;
+        padding: 5px;
+        margin: 5px auto auto auto;
+        background-color: #efefef;
+        border-radius: 15px;
+        float: right;
+    
+        /*border-style: solid;
+        border-color: blue;*/
+    
+    }
+
+  
+
+
+}
+
+
+
+
